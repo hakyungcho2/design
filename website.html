@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oa0a Bakery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        p.description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .caption {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #666;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        .about {
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><strong>oa0a Bakery</strong></div>
+    <nav>
+        <a href="#">Main</a>
+        <a href="#">Exhibitions</a>
+        <a href="#">Press</a>
+        <a href="#">Notice</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>oa0a</h1>
+    <p class="description">
+        At our bakery, we believe that good bread brings people together.
+We bake fresh every day using simple, honest ingredients.
+Each loaf is made with care, time, and a touch of love.
+Our goal is to share the warmth and comfort of freshly baked bread with everyone.
+We hope our bread adds a little joy to your everyday life.
+    </p>
+
+    <section>
+        <h2>Current Exhibition</h2>
+        <div class="gallery">
+            <div>
+                <img src="img/strawberry2.jpg" alt="strawberry cake">
+                <div class="caption">Seung Keun Jang - Reading and Misreading<br>06/11-07/19/2025</div>
+            </div>
+            <div>
+                <img src="img/blue.jpg" alt="blueberry cake">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Past Exhibition</h2>
+        <div class="gallery">
+            <div>
+                <img src="img/earlgrey.jpg" alt="bread">
+                <div class="caption">Jieun An - What Remains<br>04/11-05/17/2025</div>
+            </div>
+            <div>
+                <img src="img/blueflower.jpg" alt="cute bread">
+            </div>
+            <div>
+                <img src="img/pinkflower.jpg" alt="garlic bread">
+                <div class="caption">Minus Kim - Silent Night<br>12/04/24-01/11/25</div>
+            </div>
+            <div>
+                <img src="img/matchacookie.jpg" alt="cute bread">
+            </div>
+            <div>
+                <img src="img/lotus.jpg" alt="garlic bread">
+            </div>
+            <div>
+                <img src="img/blueflower.jpg" alt="bread">
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About</h2>
+        <p>
+            서울 강남구 삼성로 63길 32, 1층<br>
+            32-1, Samseong-ro 63-gil, Gangnam-gu, Seoul, Republic of Korea<br>
+            E: oaoagallery@gmail.com<br>
+            T: 02.6012.3271<br>
+            @oa0a_gallery<br><br>
+
+            수 - 토요일, 11 - 18시 (일, 월, 화요일, 공휴일 휴관)<br>
+            Wednesday - Saturday, 11am - 6pm<br>
+            (Closed on Mon, Tue, Sunday and Holidays)
+        </p>
+    </section>
+</div>
+
+<footer class="footer">
+    Copyright 2022. oa0a gallery All rights reserved.
+</footer>
